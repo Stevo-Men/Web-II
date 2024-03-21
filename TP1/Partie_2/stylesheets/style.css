@@ -1,0 +1,119 @@
+/** 
+ *  Ce fichier n'est pas utilisé en ce moment. 
+ *  Il est inclus seulement pour donner un rappel d'utilisation de variables CSS.
+ */
+:root {    
+    /* FIXME: Les variables pour les couleurs ne sont pas nommés correctement, c'est seulement pour vous donner la liste des différentes couleurs. */
+    --color-1: hsl(158 100% 23%);
+    --color-2: hsl(144, 68%, 84%);
+    --color-3: hsl(21, 75%, 65%);
+    --color-4: hsl(190, 43%, 35%);
+    --color-5: hsl(19, 66%, 80%);
+    --color-6: hsl(164, 31%, 17%);
+    --color-7: hsl(0, 0%, 0%);
+    --color-8: hsla(0, 0%, 0%, 0.58);
+
+    --ff-body: 'Poppins', sans-serif;
+    --ff-heading: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--ff-body);
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--ff-heading);
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+/* TODO: Ajouter autant de styles communs que votre site a besoin en utilisant les variables CSS, etc. */
+
+/** 
+ *  Ce fichier n'est pas utilisé en ce moment. 
+ *  Il est inclus seulement pour donner un rappel d'utilisation de variables CSS.
+ */
+
+ .rewards-color {
+    background-color:  var(--color-2);
+}
+
+.dragon-color {
+    background-color:  var(--color-3);
+}
+
+.snack-color {
+    background-color:  var(--color-5);
+}
+
+.pistachi-color {
+    background-color:  var(--color-4);
+}
+
+.other-color {
+    background-color:  var(--color-6);
+}
+
+.button {
+    background-color: transparent;
+    border: 1px solid black; 
+    border-radius: 40px;
+    color: black; 
+    padding: 5px 12px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-weight: 600;
+    margin: 4px 2px;
+    font-size: smaller;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: black; 
+    color: white;
+}
+
+.white-button {
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255); 
+    border-radius: 40px;
+    color: rgb(255, 255, 255); 
+    padding: 5px 12px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-weight: 600;
+    margin: 4px 2px;
+    font-size: smaller;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.057); 
+    color: white;
+}
+
+.text-collapse-footer a {	
+    color: var(--color-8);
+    text-decoration: none;
+}
+
+.title-collapse-footer  {
+    color: var(--color-7);
+    text-decoration: none;
+}
+
+.title-collapse-footer a {
+    color: var(--color-7);
+    text-decoration: none;
+}
+
+.language-site-footer a {
+    color: var(--color-4);
+    text-decoration: underline;
+
+}
